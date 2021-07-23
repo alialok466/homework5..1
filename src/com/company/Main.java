@@ -6,8 +6,8 @@ public class Main {
         Bosss bosss = new Bosss();
         bosss.setHealth(600);
         bosss.setDamage(70);
-        bosss.getSewing();
-        System.out.println(bosss);
+        bosss.setSewing("MagikSewing");
+        System.out.println("health:" + bosss.getHealth() + "    damage:" + bosss.getDamage() + "   sewing:" + bosss.getSewing());
 
     }
 }
